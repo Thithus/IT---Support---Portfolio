@@ -69,12 +69,18 @@ Validated AD-integrated DNS zone records for domain name resolution.
 ### SYSVOL & NETLOGON Share Verification
 Executed command:
 
+### SYSVOL & NETLOGON Share Verification
+
+Executed command:
+
 ```cmd
 net share
-```md
+```
+
 Verified SYSVOL and NETLOGON shares were successfully created.
 
 ![SYSVOL NETLOGON Shares](images/7-netlogon.png)
+
 
 ---
 
@@ -105,3 +111,4 @@ The server was successfully promoted to a Forest Root Domain Controller. Active 
 ## Project Outcome
 Successfully deployed a production-ready Forest Root Domain Controller for the **landonhotel.local** enterprise lab environment.
 ```
+
