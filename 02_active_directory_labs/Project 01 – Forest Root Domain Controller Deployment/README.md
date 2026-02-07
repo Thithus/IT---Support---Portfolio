@@ -71,32 +71,37 @@ Executed command:
 
 ```cmd
 net share
+```md
 Verified SYSVOL and NETLOGON shares were successfully created.
 
+![SYSVOL NETLOGON Shares](images/7-netlogon.png)
 
+---
 
-Result
+## Result
 The server was successfully promoted to a Forest Root Domain Controller. Active Directory, DNS, and domain authentication services were fully operational.
 
-Infrastructure Impact
-Centralized authentication enabled
+---
 
-User and computer management established
+## Infrastructure Impact
 
-Foundation for Group Policy deployment created
+- Centralized authentication enabled  
+- User and computer management established  
+- Foundation for Group Policy deployment created  
+- Enterprise identity infrastructure operational  
 
-Enterprise identity infrastructure operational
+---
 
-Tools Used
-Server Manager
+## Tools Used
 
-Active Directory Domain Services
+- Server Manager  
+- Active Directory Domain Services  
+- DNS Manager  
+- Active Directory Users and Computers  
+- Command Prompt  
 
-DNS Manager
+---
 
-Active Directory Users and Computers
-
-Command Prompt
-
-Project Outcome
-Successfully deployed a production-ready Forest Root Domain Controller for the landonhotel.local enterprise lab environment.
+## Project Outcome
+Successfully deployed a production-ready Forest Root Domain Controller for the **landonhotel.local** enterprise lab environment.
+```
