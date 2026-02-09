@@ -1,10 +1,10 @@
-# 🖥️ IT Support & Active Directory Portfolio
+# 🖥️ IT Support, Active Directory & Network Troubleshooting Portfolio
 
-Welcome to my hands-on IT Support and Active Directory administration portfolio.
+Welcome to my hands-on IT Support, Active Directory, and Network Administration portfolio.
 
-This repository showcases practical, lab-based simulations designed to demonstrate real-world Tier 1 IT Support, System Administration, and Active Directory management skills using virtual lab environments.
+This repository showcases practical, lab-based simulations designed to demonstrate real-world Tier 1 IT Support, System Administration, Active Directory, and Network Troubleshooting skills using virtual lab environments.
 
-All projects are documented with structured troubleshooting methodology, administrative configurations, and supporting screenshots.
+All projects are documented using structured troubleshooting methodologies, administrative configurations, and supporting screenshots to reflect enterprise IT operations.
 
 ---
 
@@ -18,6 +18,7 @@ This portfolio was built to develop and demonstrate job-ready skills in:
 * Active Directory Deployment
 * Group Policy Security Enforcement
 * Enterprise User Environment Control
+* Network Troubleshooting & Connectivity Diagnostics
 
 ---
 
@@ -36,6 +37,14 @@ This portfolio was built to develop and demonstrate job-ready skills in:
 * Group Policy Management Console (GPMC)
 * Domain: **landonhotel.local**
 
+## Network Troubleshooting Labs
+
+* Windows 10 / 11 Domain Clients
+* Windows Server Domain Controller
+* Host-Only & NAT Virtual Networks
+* TCP/IP Configuration Tools
+* Command-line Diagnostics
+
 ---
 
 # 📂 Portfolio Structure
@@ -44,8 +53,10 @@ This portfolio was built to develop and demonstrate job-ready skills in:
 IT-Support-Portfolio/
 │
 ├── 01-Helpdesk-Tickets/
+│
 ├── 02-Active-Directory-Labs/
-└── 03-Network-Troubleshooting-Labs/ (Upcoming)
+│
+└── 03-Network-Troubleshooting-Labs/
 ```
 
 ---
@@ -158,14 +169,78 @@ Deployed centralized administrative and security policies.
 
 ---
 
+# 🌐 03 — Network Troubleshooting Labs
+
+This section demonstrates practical network diagnostics and connectivity troubleshooting within a domain-based virtual lab environment.
+
+Each lab simulates real-world service desk and infrastructure incidents affecting workstation communication, internet access, and domain connectivity.
+
+---
+
+## 🔧 Network Labs Included
+
+### Ticket-07 — No Internet Connectivity
+
+Simulated loss of internet access due to incorrect TCP/IP configuration such as missing gateway or invalid DNS.
+
+**Skills:**
+
+* IP configuration analysis
+* Gateway troubleshooting
+* External connectivity testing
+* Ping diagnostics
+
+---
+
+### Ticket-08 — DNS Resolution Failure
+
+Simulated DNS misconfiguration preventing domain and internet name resolution.
+
+**Skills:**
+
+* DNS server configuration
+* Name resolution testing
+* nslookup diagnostics
+* Domain lookup validation
+
+---
+
+### Ticket-09 — IP Address Conflict
+
+Simulated duplicate IPv4 addressing between two machines on the same network, causing intermittent connectivity.
+
+**Skills:**
+
+* IP conflict detection
+* ARP table inspection
+* Connectivity failure analysis
+* Address reassignment remediation
+
+---
+
+### Ticket-10 — Domain Client Connectivity Failure
+
+Simulated domain communication issues caused by DNS misconfiguration or network discovery restrictions.
+
+**Skills:**
+
+* Domain controller reachability testing
+* Authentication troubleshooting
+* DNS dependency analysis
+* Enterprise connectivity restoration
+
+---
+
 # 🧪 Testing & Validation
 
-All configurations were tested using domain client systems to validate:
+All configurations and troubleshooting scenarios were validated using domain client systems to confirm:
 
 * Authentication enforcement
-* Account lockout behavior
 * Policy propagation
-* Endpoint access restrictions
+* Connectivity restoration
+* DNS resolution
+* Domain communication
+* Endpoint network functionality
 
 Screenshots and command outputs are included within each lab.
 
@@ -178,6 +253,8 @@ Screenshots and command outputs are included within each lab.
 * Active Directory Domain Services
 * Group Policy Management Console
 * DNS Manager
+* Command Prompt / PowerShell
+* TCP/IP Utilities
 * Computer Management
 * Task Manager
 * VirtualBox
@@ -193,7 +270,10 @@ Screenshots and command outputs are included within each lab.
 * Organizational Unit Design
 * Security Group Management
 * Group Policy Enforcement
-* Endpoint Security Administration
+* Network Troubleshooting
+* DNS Administration
+* TCP/IP Configuration
+* Endpoint Connectivity Diagnostics
 
 ---
 
@@ -205,6 +285,7 @@ This portfolio aligns with responsibilities of:
 * Helpdesk Technician
 * System Administrator
 * Windows Server Administrator
+* Network Support Technician
 * SOC / Blue Team Analyst (Entry Level)
 
 ---
@@ -219,4 +300,4 @@ GitHub:
 
 ---
 
-⭐ Additional labs in Networking & Security are in progress.
+⭐ Additional labs in Networking, Security, and Cybersecurity Operations are in progress.
