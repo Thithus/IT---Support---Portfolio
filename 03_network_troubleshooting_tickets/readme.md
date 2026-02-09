@@ -5,7 +5,8 @@ Welcome to my Network Troubleshooting hands-on lab portfolio.
 This repository section showcases practical, ticket-based network troubleshooting simulations designed to reflect real-world Tier 1 / Tier 2 IT Support and enterprise network support scenarios.
 
 All labs were performed in a virtualized homelab environment and documented using structured troubleshooting methodology, command-line diagnostics, and validation screenshots.
-
+GitHub Portfolio:
+[https://github.com/Thithus/it_support_portfolio](https://github.com/Thithus/it_support_portfolio)
 ---
 
 # 🛠️ Lab Environment
@@ -161,3 +162,4 @@ GitHub Portfolio:
 ---
 
 ⭐ Additional networking and security labs will continue to be added as part of ongoing skill development.
+
